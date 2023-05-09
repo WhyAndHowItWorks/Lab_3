@@ -14,9 +14,9 @@ namespace ТП_Лаба_3
 {
     public partial class Form1 : Form
     {
-         
-       
-       
+
+
+        public List<Day> Days = new List<Day>();
 
         private void Form1_Load(object sender, EventArgs e)
         {
