@@ -20,3 +20,14 @@ C:\Users\User\Desktop\ававава\obj\Debug\ТП_Лаба_3.csproj.GenerateRe
 C:\Users\User\Desktop\ававава\obj\Debug\ТП_Лаба_3.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\ававава\obj\Debug\ТП_Лаба_3.exe
 C:\Users\User\Desktop\ававава\obj\Debug\ТП_Лаба_3.pdb
+C:\Users\User\Desktop\Лабороторная_delta1\bin\Debug\ТП_Лаба_3.exe.config
+C:\Users\User\Desktop\Лабороторная_delta1\bin\Debug\ТП_Лаба_3.exe
+C:\Users\User\Desktop\Лабороторная_delta1\bin\Debug\ТП_Лаба_3.pdb
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.Form1.resources
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.Properties.Resources.resources
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.exe
+C:\Users\User\Desktop\Лабороторная_delta1\obj\Debug\ТП_Лаба_3.pdb
