@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.DaysSpisok = new System.Windows.Forms.ListBox();
             this.MaxSpeed_Input = new System.Windows.Forms.RichTextBox();
             this.SaveFile_Button = new System.Windows.Forms.Button();
@@ -70,7 +70,7 @@
             this.DaysSpisok.Name = "DaysSpisok";
             this.DaysSpisok.Size = new System.Drawing.Size(215, 388);
             this.DaysSpisok.TabIndex = 0;
-          
+            this.DaysSpisok.SelectedIndexChanged += new System.EventHandler(this.DaysSpisok_SelectedIndexChanged);
             // 
             // MaxSpeed_Input
             // 
@@ -88,7 +88,6 @@
             this.SaveFile_Button.TabIndex = 2;
             this.SaveFile_Button.Text = "Сохранить информацию в файл";
             this.SaveFile_Button.UseVisualStyleBackColor = true;
-           
             // 
             // MinSpeed_Input
             // 
@@ -182,7 +181,7 @@
             this.AddDay.TabIndex = 13;
             this.AddDay.Text = "Добавить день";
             this.AddDay.UseVisualStyleBackColor = true;
-            
+            this.AddDay.Click += new System.EventHandler(this.AddDay_Click);
             // 
             // ChooseType1
             // 
@@ -208,7 +207,6 @@
             this.DrawGraphic.TabIndex = 17;
             this.DrawGraphic.Text = "Отобразить график";
             this.DrawGraphic.UseVisualStyleBackColor = true;
-            
             // 
             // label6
             // 
@@ -230,16 +228,16 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(509, 33);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(490, 230);
             this.chart1.TabIndex = 20;
             this.chart1.Text = "chart1";
